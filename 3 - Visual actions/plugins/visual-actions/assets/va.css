@@ -1,0 +1,84 @@
+.va_settings {
+    position: fixed;
+    background: rgba(255, 255, 255, 50%);
+    width: 250px;
+    padding: 20px;
+    top: 32px;
+    right: 0;
+    z-index: 1000;
+}
+
+.va_settings label {
+    display: inline-block;
+}
+
+.va_action_item {
+    margin-bottom: 20px;
+}
+
+.va_action_item.active {
+    display: block !important;
+}
+
+.va_action_inner {
+    padding: 10px;
+}
+
+.va_action_name {
+    position: relative;
+    padding: 10px 20px;
+    border: 1px dashed red;
+    text-align: center;
+    display: block;
+    color: #222;
+    font-weight: 700;
+    background: #f4f4f4;
+    font-style: italic;
+    font-size: 14px;
+    overflow: hidden;
+}
+
+.va_template_item {
+    position: relative;
+    padding: 10px 20px;
+    border: 1px dashed green;
+    text-align: center;
+    color: #222;
+    font-weight: 700;
+    background: #cbffbc;
+    font-style: italic;
+    font-size: 14px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.va_template_item.active {
+    display: block !important;
+}
+
+.va_functions_count {
+    position: absolute;
+    background: #ccc;
+    padding: 2px 8px;
+    color: #333;
+    top: 0;
+    right: 0;
+}
+
+.va_action_item.has_funtions {
+    cursor: pointer;
+}
+
+.va_action_item.has_funtions .va_functions_count {
+    background: red;
+    color: #fff;
+}
+
+.va_action_functions {
+    display: none;
+}
+
+.va_action_functions table {
+    margin: 15px 0 0;
+}
